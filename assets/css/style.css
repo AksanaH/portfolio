@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 10px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #323334;
+    color: #ffffff;
+}
+
+header h1 {
+    font-size: 48px;
+    color: black;
+    text-align: left;
+    margin-left: 100px;
+}
+
+
+.container-h1 {
+    display: inline-block;
+    background-color: aqua;
+    position: relative;
+    left: 0
+}
+header nav {
+    padding-top: 15px;
+    margin-right: 100px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.main-image img{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    object-fit: cover;
+    
+}
+.main-image {
+    display: flex;
+    background-image: url(../images/subtitle.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.subtitle {
+    display: inline; 
+    background-color: aqua;
+    right: 100px;
+    float: right;
+    padding: 8px;
+    margin-bottom: 10px;
+    order:2;
+    align-self: flex-end;
+
+}
+
+
+.avatar img {
+    width: 100px;
+    height:120px;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    
+}
+
+aside {
+    flex:20%;
+    background-color: antiquewhite;
+    margin: 20px;
+    
+}
+
+aside h2 {
+    text-align:  right;
+    border-right: 3px solid black;
+}
+
+.about-me {
+    height:150px;
+}
+
+.about-me h2 {
+    height: 100px;
+    padding-right: 20px;
+}
+
+.about-me p {
+    margin-top: 20px;
+    color: blue;
+    text-align: left;
+    padding: 0 40px 0 0;
+}
+
+
+.work {
+    height:600px;
+}
+
+.work h2 {
+    height: 600px;
+    padding-right: 20px;
+}
+
+section {
+    flex: 80%;
+
+}
+.container-projects {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.horiseon-code-refactor {
+    background-image: url(../images/horiseon-code-refactor.png);
+    width: 1000px;
+    height: 300px;
+    border: 2px solid rgb(9, 9, 9);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.flex-container-projects {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+
+.coffe-cafe {
+    background-image: url(../images/coffe-beans.jpeg);
+}
+.hangman {
+    background-image: url(../images/hangman.png);
+}
+
+.furniture-store {
+    background-image: url(../images/furniture.jpeg);
+}
+.cats {
+    background-image: url(../images/cats.png);
+}
+
+#container {
+    flex: 0 0 495px;
+    margin: 5px;
+    border: 2px solid rgb(9, 9, 9);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+.label-projects {
+    background-color: rgb(202, 216, 212);
+    border: 2px solid #2b3026;
+}
+
+.contact-me {
+    height:50px;
+    margin:10px 0;
+}
+
+.contact-me ul li {
+    display: inline-block;
+}
+
+.contact-me ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:bisque;
+    align-items: center;
+    height: 100%; 
+}
+
+.contact-me h2 {
+    padding-right: 20px;
+}
+
